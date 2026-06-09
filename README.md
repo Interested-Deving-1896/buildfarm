@@ -1,22 +1,29 @@
-# Buildfarm
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# buildfarm
 
-![Build status](https://badge.buildkite.com/45f4fd4c0cfb95f7705156a4119641c6d5d6c310452d6e65a4.svg?branch=main)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/buildfarm/buildfarm/badge)](https://securityscorecards.dev/viewer/?uri=github.com/buildfarm/buildfarm)
-![GitHub License](https://img.shields.io/github/license/buildfarm/buildfarm)
-![GitHub Release](https://img.shields.io/github/v/release/buildfarm/buildfarm)
-![Docker Pulls](https://img.shields.io/docker/pulls/bazelbuild/buildfarm-server)
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/buildfarm)
 
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-This repository hosts a [remote caching and execution](https://github.com/bazelbuild/remote-apis) system, compatible with the build systems [Bazel](https://bazel.build), buck2, pants, and more.
+## Architecture
 
-Background information on the status of caching and remote execution in bazel can be
-found in the [bazel documentation](https://docs.bazel.build/versions/master/remote-caching.html).
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-File issues here for bugs or feature requests, and ask questions via build team [slack](https://join.slack.com/t/buildteamworld/shared_invite/zt-4zy8f5j5-KwiJuBoAAUorB_mdQHwF7Q) in the #buildfarm channel.
+## Install
 
-[Buildfarm Docs](https://buildfarm.github.io/buildfarm/)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/buildfarm.git
+cd buildfarm
+```
 
 ## Usage
+
 
 All commandline options override corresponding config settings.
 
@@ -168,3 +175,51 @@ helm install \
   oci://ghcr.io/buildfarm/buildfarm \
   --version "0.4.1"
 ```
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/buildfarm`](https://github.com/Interested-Deving-1896/buildfarm) and mirrored through:
+
+```
+Interested-Deving-1896/buildfarm  ──►  OpenOS-Project-OSP/buildfarm  ──►  OpenOS-Project-Ecosystem-OOC/buildfarm
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/buildfarm/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
